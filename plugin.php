@@ -45,4 +45,4 @@ include_once( BB_DIR . '/lib/functions/facebook.php' );
 //include_once( BB_DIR . '/lib/widgets/sidebars.php' );
 
 // General
-include_once( BB__DIR . '/lib/functions/general.php' );
+include_once( BB_DIR . '/lib/functions/general.php' );
