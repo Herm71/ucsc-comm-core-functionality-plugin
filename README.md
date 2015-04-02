@@ -1,9 +1,10 @@
 ## Blackbird Consulting Core Functionality Plugin ##
-/*
- *@author Blackbird Consulting
- *@link http://www.blackbirdconsult.com/
- *@more https://github.com/Herm71/blackbird-core-functionality-plugin
- */
+@author Blackbird Consulting
+ 
+@link http://www.blackbirdconsult.com/
+
+@more https://github.com/Herm71/blackbird-core-functionality-plugin
+
 
 This plugin can contain your site's core functionality. It contains the following library structure; however, it can be expanded greatly:
 
