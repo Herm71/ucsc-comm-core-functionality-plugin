@@ -1,3 +1,5 @@
+![Blackbird Consulting](http://www.blackbirdconsult.com/images/blackbird_header_logo.jpg "Blackbird Consulting")
+
 ## Blackbird Consulting Core Functionality Plugin ##
 @author Blackbird Consulting
  
