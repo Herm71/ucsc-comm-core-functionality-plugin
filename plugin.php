@@ -1,15 +1,13 @@
 <?php
 /**
- * Plugin Name: Blackbird Core Functionality
- * Plugin URI: https://github.com/billerickson/Core-Functionality
- * Description: This contains all your site's core functionality so that it is theme independent.
+ * Plugin Name: Blackbird Custom Functionality
+ * Plugin URI: https://github.com/Herm71/blackbird-core-functionality-plugin.git
+ * Description: Contains custom functionality. Theme independent.
  * Version: 1.1.0
- * Author: Jason Chafin
+ * Author: Blackbird Consulting
  * Author URI: http://www.blackbirdconsult.com/
- *
- * This code was adapted from Bill Erickson, who's tutorials have helped me tremendously in my development process.
- * http://www.billerickson.net
- *
+ * License: GPL2
+ * 
  * This program is free software; you can redistribute it and/or modify it under the terms of the GNU 
  * General Public License version 2, as published by the Free Software Foundation.  You may NOT assume 
  * that you can use any other version of the GPL.
@@ -21,22 +19,14 @@
 
 // Plugin Directory 
 define( 'BB_DIR', dirname( __FILE__ ) );
+
+//Include Customization files:
  
 // Post Types
 //include_once( BB_DIR . '/lib/functions/post-types.php' );
 
 // Taxonomies 
 //include_once( BB_DIR . '/lib/functions/taxonomies.php' );
-
-// Metaboxes
-//include_once( BB_DIR . '/lib/functions/metaboxes.php' );
- 
-// Facebook Open Graph Tags
-// -- Set default image in general.php
-include_once( BB_DIR . '/lib/functions/facebook.php' );
-
-// Widgets
-//include_once( BB_DIR . '/lib/widgets/widget-social.php' );
 
 // Shortcodes
 //include_once( BB_DIR . '/lib/widgets/shortcodes.php' );
