@@ -23,6 +23,7 @@
  * @license      http://opensource.org/licenses/gpl-2.0.php GNU Public License
 
  */
+
 function bb_register_custom_sidebars(){
 	/** Register Top-Row Search widget areas */
 	 genesis_register_widget_area( array(
@@ -37,41 +38,3 @@ function bb_register_custom_sidebars(){
 		}
 		
 		add_action ('widgets_init','bb_register_custom_sidebars');
-
-
-
-
-
-
-/** Register Home Page widget areas */
-
-// genesis_register_sidebar( array(
-
-// 	'id'			=> 'home-large-image',
-
-// 	'name'			=> __( 'Home Large Image'),
-
-// 	'description'	=> __( 'This is the large image on the left of the home page.'),
-
-// ) );
-
-// genesis_register_sidebar( array(
-
-// 	'id'			=> 'home-copy',
-
-// 	'name'			=> __( 'Home Copy'),
-
-// 	'description'	=> __( 'This is the main text on the home page section.'),
-
-// ) );
-
-// genesis_register_sidebar( array(
-
-// 	'id'			=> 'home-below-copy',
-
-// 	'name'			=> __( 'Home Below Copy' ),
-
-// 	'description'	=> __( 'This is the area beneathe the home copy section' ),
-
-// ) );
-
