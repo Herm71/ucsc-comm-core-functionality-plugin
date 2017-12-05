@@ -64,4 +64,4 @@ function ucsc_social_sharing(){
     
     }
     
-    add_shortcode('ucsc-social', __NAMESPACE__ . '\ucsc_social_sharing');
+    add_shortcode('ucsc-social', 'ucsc_social_sharing');

@@ -10,7 +10,7 @@
 
 This plugin can contain your site's core functionality. It contains the following library structure; however, it can be expanded greatly:
 
-* meetaboxex.php -- for registering custom metaboxes
+* metaboxes.php -- for registering custom metaboxes
 
 * post-types.php -- for registering custom post types
 

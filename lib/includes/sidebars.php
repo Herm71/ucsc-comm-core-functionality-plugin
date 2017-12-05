@@ -36,7 +36,7 @@ function bb_register_custom_sidebars(){
 		) );
 		}
 		
-		add_action ('widgets_init',__NAMESPACE__ . '\bb_register_custom_sidebars');
+		add_action ('widgets_init','bb_register_custom_sidebars');
 
 
 

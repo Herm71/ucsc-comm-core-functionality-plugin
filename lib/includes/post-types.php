@@ -51,7 +51,7 @@ function bb_register_social_media_directory_post_type() {
 	); 
 	register_post_type( 's_m_directory', $args );
 }
-add_action( 'init', __NAMESPACE__ . '\bb_register_social_media_directory_post_type' );	
+add_action( 'init', 'bb_register_social_media_directory_post_type' );	
 
 /**
  * Create A-Z Editorial Style Guide
@@ -92,4 +92,4 @@ function bb_register_editorial_style_guide_post_type() {
 	); 
 	register_post_type( 'a_z_style_guide', $args );
 }
-add_action( 'init', __NAMESPACE__ . '\bb_register_editorial_style_guide_post_type' );	
+add_action( 'init', 'bb_register_editorial_style_guide_post_type' );	
