@@ -1,8 +1,8 @@
 <?php
 /**
- * General
+ * Do Not Update
  *
- * This file contains any general functions
+ * This file contains the do not update function.
  *
  * @package      BB_Custom_Functionality
  * @since        1.0.0
@@ -11,6 +11,7 @@
  * @copyright    Copyright (c) 2015, Blackbird Consulting
  * @license      http://opensource.org/licenses/gpl-2.0.php GNU Public License
  */
+ define ('BB_PLUG_DIR', plugins_url(NULL, dirname(  __FILE__ ) ));
  
 /**
  * Don't Update Plugin
@@ -37,5 +38,6 @@ function bb_custom_functionality_hidden( $r, $url ) {
 }
 add_filter( 'http_request_args', 'bb_custom_functionality_hidden', 5, 2 );
 
-// Use shortcodes in widgets
-add_filter( 'widget_text', 'do_shortcode' );
+
+
+

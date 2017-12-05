@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name: Blackbird Custom Functionality
+ * Plugin Name: UCSC Communications Core Functionality Plugin
  * Plugin URI: https://github.com/Herm71/blackbird-core-functionality-plugin.git
- * Description: Contains custom functionality. Theme independent.
+ * Description: Contains custom post-types, shortcodes, sidebars and taxonomies for the UCSC Communications theme. Theme independent.
  * Version: 1.1.0
- * Author: Blackbird Consulting
- * Author URI: http://www.blackbirdconsult.com/
+ * Author: UC Santa Cruz
+ * Author URI: http://www.ucsc.edu/
  * License: GPL2
  * 
  * This program is free software; you can redistribute it and/or modify it under the terms of the GNU 
@@ -21,18 +21,21 @@
 define( 'BB_DIR', dirname( __FILE__ ) );
 
 //Include Customization files:
- 
+
 // Post Types
-//include_once( BB_DIR . '/lib/functions/post-types.php' );
+include_once( BB_DIR . '/lib/includes/post-types.php' );
 
 // Taxonomies 
-//include_once( BB_DIR . '/lib/functions/taxonomies.php' );
+//include_once( BB_DIR . '/lib/includes/taxonomies.php' );
 
 // Shortcodes
-//include_once( BB_DIR . '/lib/widgets/shortcodes.php' );
+include_once( BB_DIR . '/lib/includes/shortcodes.php' );
 
 // Sidebars
-//include_once( BB_DIR . '/lib/widgets/sidebars.php' );
+include_once( BB_DIR . '/lib/includes/sidebars.php' );
+
+// Metaboxes
+include_once( BB_DIR . '/lib/includes/metaboxes.php' );
 
 // General
-include_once( BB_DIR . '/lib/functions/general.php' );
+include_once( BB_DIR . '/lib/includes/do-not-update.php' );
