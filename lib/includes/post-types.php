@@ -37,6 +37,7 @@ function bb_register_social_media_directory_post_type() {
 		'labels' => $labels,
 		'public' => true,
 		'publicly_queryable' => true,
+		'exclude_from_search' => true,
 		'show_ui' => true, 
         'show_in_menu' => true,
         'menu_position' => 20, 
@@ -60,7 +61,7 @@ add_action( 'init', 'bb_register_social_media_directory_post_type' );
  */
 function bb_register_editorial_style_guide_post_type() {
 	$labels = array(
-		'name' => 'A-Z Editorial Style Guide',
+		'name' => 'Editorial Style Guide',
 		'singular_name' => 'Editorial Style Guide Entry',
 		'add_new' => 'Add New',
 		'add_new_item' => 'Add New Editorial Style Guide Entry',
