@@ -78,6 +78,7 @@ function bb_register_editorial_style_guide_post_type() {
 		'labels' => $labels,
 		'public' => true,
 		'publicly_queryable' => true,
+		'exclude_from_search' => true,
 		'show_ui' => true, 
         'show_in_menu' => true,
         'menu_position' => 20, 
