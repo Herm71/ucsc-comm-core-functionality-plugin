@@ -68,8 +68,7 @@ function ucsc_social_sharing(){
 
     // Editorial Styles Search Form
 function ed_styles_search_form(){
-    echo '<section class="style-guide-search">';  
-    //echo '<h3>Search Style Guide</h3>';
+    echo '<div class="style-guide-search">';  
     echo    '<form class="search-form" role="search" itemprop="potentialAction" itemscope="" itemtype="https://schema.org/SearchAction" action="'.site_url('/').'" method="get" id="searchform">';
     echo '<meta itemprop="target" content="'.site_url().'/?s={s}">';
     echo '<label class="search-form-label screen-reader-text" for="searchform-editorial-styles">Search Style Guide</label>';
@@ -77,7 +76,7 @@ function ed_styles_search_form(){
     echo    '<input type="hidden" name="post_type" value="a_z_style_guide" />';
     echo '<input type="submit" value="'.esc_attr( '&#xf179;' ).'" />';
     echo '</form>';
-    echo '</section>';
+    echo '</div>';
 }
 
 add_shortcode('editorial-style-guide-search', 'ed_styles_search_form');
