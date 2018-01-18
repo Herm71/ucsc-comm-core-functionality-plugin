@@ -35,6 +35,16 @@ function bb_register_custom_sidebars(){
 			'description'	=> __( 'This is the search widget for the header top row.'),
 		
 		) );
+	/** Register Top-Row Search widget areas */
+	genesis_register_widget_area( array(
+		
+		'id'			=> 'editorial-page-sidebar',
+	
+		'name'			=> __( 'Editorial Page Sidebar'),
+	
+		'description'	=> __( 'This is the widget area for the Editorial Page'),
+	
+	) );
 		}
 		
 		add_action ('widgets_init','bb_register_custom_sidebars');
