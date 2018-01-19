@@ -25,7 +25,7 @@
  */
 
 function bb_register_custom_sidebars(){
-	/** Register Top-Row Search widget areas */
+	/** Register Top-Row Search widget area */
 	 genesis_register_widget_area( array(
 		
 			'id'			=> 'top-row-search',
@@ -35,7 +35,7 @@ function bb_register_custom_sidebars(){
 			'description'	=> __( 'This is the search widget for the header top row.'),
 		
 		) );
-	/** Register Top-Row Search widget areas */
+	/** Register Editorial Page Sidebar */
 	genesis_register_widget_area( array(
 		
 		'id'			=> 'editorial-page-sidebar',
@@ -43,6 +43,26 @@ function bb_register_custom_sidebars(){
 		'name'			=> __( 'Editorial Page Sidebar'),
 	
 		'description'	=> __( 'This is the widget area for the Editorial Page'),
+	
+	) );
+	/** Register Media Relations Page Sidebar */
+	genesis_register_widget_area( array(
+		
+		'id'			=> 'media-relations-page-sidebar',
+	
+		'name'			=> __( 'Media Relations Page Sidebar'),
+	
+		'description'	=> __( 'This is the widget area for the Media Relations Page'),
+	
+	) );
+	/** Register Email Page Sidebar */
+	genesis_register_widget_area( array(
+		
+		'id'			=> 'email-page-sidebar',
+	
+		'name'			=> __( 'Email Page Sidebar'),
+	
+		'description'	=> __( 'This is the widget area for the Email and iModules Page'),
 	
 	) );
 		}
