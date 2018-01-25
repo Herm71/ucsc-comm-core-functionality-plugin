@@ -172,5 +172,5 @@ pip-log.txt
 #############
 ## scripts
 #############
-syncplug
-rsync-exclude.txt
+# syncplug
+# rsync-exclude.txt
