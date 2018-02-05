@@ -35,6 +35,16 @@ function bb_register_custom_sidebars(){
 			'description'	=> __( 'This is the search widget for the header top row.'),
 		
 		) );
+	/** Register Brand Page Sidebar */
+	genesis_register_widget_area( array(
+		
+		'id'			=> 'brand-page-sidebar',
+	
+		'name'			=> __( 'Brand Page Sidebar'),
+	
+		'description'	=> __( 'This is the widget area for the Brand Overview Page'),
+	
+	) );
 	/** Register Editorial Page Sidebar */
 	genesis_register_widget_area( array(
 		
@@ -42,7 +52,17 @@ function bb_register_custom_sidebars(){
 	
 		'name'			=> __( 'Editorial Page Sidebar'),
 	
-		'description'	=> __( 'This is the widget area for the Editorial Page'),
+		'description'	=> __( 'This is the widget area for the Editorial Overview Page'),
+	
+	) );
+	/** Register Visual Design Sidebar */
+	genesis_register_widget_area( array(
+		
+		'id'			=> 'visual-design-page-sidebar',
+	
+		'name'			=> __( 'Visual Design Page Sidebar'),
+	
+		'description'	=> __( 'This is the widget area for the Visual Design Overview Page'),
 	
 	) );
 	/** Register Media Relations Page Sidebar */
@@ -52,7 +72,27 @@ function bb_register_custom_sidebars(){
 	
 		'name'			=> __( 'Media Relations Page Sidebar'),
 	
-		'description'	=> __( 'This is the widget area for the Media Relations Page'),
+		'description'	=> __( 'This is the widget area for the Media Relations Overview Page'),
+	
+	) );
+	/** Register Social Media Page Sidebar */
+	genesis_register_widget_area( array(
+		
+		'id'			=> 'social-media-page-sidebar',
+	
+		'name'			=> __( 'Social Media Page Sidebar'),
+	
+		'description'	=> __( 'This is the widget area for the Social Media Overview Page'),
+	
+	) );
+	/** Register Web Page Sidebar */
+	genesis_register_widget_area( array(
+		
+		'id'			=> 'web-page-sidebar',
+	
+		'name'			=> __( 'Web Page Sidebar'),
+	
+		'description'	=> __( 'This is the widget area for the Web Overview Page'),
 	
 	) );
 	/** Register Email Page Sidebar */
