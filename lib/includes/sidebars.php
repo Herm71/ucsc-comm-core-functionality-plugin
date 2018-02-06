@@ -105,6 +105,16 @@ function bb_register_custom_sidebars(){
 		'description'	=> __( 'This is the widget area for the Email and iModules Page'),
 	
 	) );
+	/** Register Editorial Style Guide Single Page Sidebar */
+	genesis_register_widget_area( array(
+		
+		'id'			=> 'style-guide-single-sidebar',
+	
+		'name'			=> __( 'Style Guide Single Sidebar'),
+	
+		'description'	=> __( 'This is the widget area for the Editorial Style Guide Custom Post Type Single Template'),
+	
+	) );
 		}
 		
 		add_action ('widgets_init','bb_register_custom_sidebars');
