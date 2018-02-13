@@ -85,6 +85,16 @@ function bb_register_custom_sidebars(){
 		'description'	=> __( 'This is the widget area for the Social Media Overview Page'),
 	
 	) );
+	/** Register Social Media Directory */
+	genesis_register_widget_area( array(
+		
+		'id'			=> 'social-media-directory-sidebar',
+	
+		'name'			=> __( 'Social Media Directory Sidebar'),
+	
+		'description'	=> __( 'This is the widget area for the Social Media Directory Page'),
+	
+	) );
 	/** Register Web Page Sidebar */
 	genesis_register_widget_area( array(
 		
